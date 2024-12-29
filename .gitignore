@@ -34,3 +34,14 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Установите LF для всех текстовых файлов
+* text=auto
+
+# Для JavaScript файлов
+*.js text eol=lf
+
+# Для других файлов, если необходимо
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
